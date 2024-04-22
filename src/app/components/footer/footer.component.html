@@ -1,1 +1,43 @@
-<p>footer works!</p>
+<!--  Es: el background es azul mar -->
+  <footer class="bg-[#20334D] relative">
+<!--    Es: Uso de grid para realizar columnas-->
+    <div class="container grid md:grid-cols-2 xl:grid-cols-2  w-full">
+<!--      Es: Realización de dos columnas-->
+        <img class="w-[122px] h-[122px] px-4 py-2" src="../../../assets/img/footer/logo.svg" />
+        <div class="flex justify-around">
+          <div class=" md:hidden  text-center text-white py-2 font-light font-['Assistant']">
+            <ol>
+              <li>Direccion_1</li>
+              <li>Direccion_2</li>
+              <li>Direccion_3</li>
+              <li>Direccion_4</li>
+              <li>Direccion_5</li>
+            </ol>
+          </div>
+          <!--Es: División de dos filas-->
+          <div class="grid grid-rows-2 md:grid-rows-1">
+            <!--Es: División de dos filas | h2 y iconos-->
+            <div class="grid grid-rows-2  md:pt-8">
+              <h2 class=" text-center text-white  font-light font-['Assistant'] px-2 py-2">SIGAMOS CONECTADOS</h2>
+              <div class="grid grid-cols-4 ml-2 ">
+                <img class="w-[35px] h-[35px] " src="../../../assets/img/footer/item_1.svg" />
+                <img class="w-[35px] h-[35px] " src="../../../assets/img/footer/item_2.svg" />
+                <img class="w-[35px] h-[35px] " src="../../../assets/img/footer/item_3.svg" />
+                <img class="w-[35px] h-[35px] " src="../../../assets/img/footer/item_4.svg" />
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    <div class="flex flex-row justify-around text-white py-2 font-light font-['Assistant']">
+        <a>Direccion_1</a>
+        <a>Direccion_2</a>
+        <a>Direccion_3</a>
+        <a>Direccion_4</a>
+        <a>Direccion_5</a>
+    </div>
+    <div class=" text-center text-white text-[16px] font-normal font-['Assistant']">© Todos los Derechos Reservados.</div>
+
+  </footer>
