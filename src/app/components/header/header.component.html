@@ -1,1 +1,25 @@
-<p>header works!</p>
+<header class="w-full relative  bg-[#ECECFF] px-2.5">
+  <div class="flex mx-auto container justify-between">
+    <div class="flex flex-col justify-center items-center pt-2">
+      <img class="w-[70px] h-[70px]" src="../../../assets/img/footer/logo.svg" alt="logo_escuela"/>
+      <div class="text-center text-blue-800 text-xl font-normal font-['Archivo_Black'] mt-2">COLEGIO</div>
+    </div>
+    <!-- You can open the modal using ID.showModal() method -->
+    <button class="" onclick="menu_modal.showModal()">
+      <img class="w-16 h-16 px-4 py-2 my-3"  src="../../../assets/img/header/bars.svg" alt="menu_icon"/>
+    </button>
+    <dialog id="menu_modal" class="modal">
+      <div class="modal-box bg-[#EBEBFF] text-gray-800 grid grid-rows-4  ">
+        <h3 class="font-bold text-lg">Direccion 1</h3>
+        <h3 class="font-bold text-lg">Direccion 2</h3>
+        <h3 class="font-bold text-lg">Direccion 3</h3>
+      </div>
+
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+<!--      end-->
+    </dialog>
+
+  </div>
+</header>
